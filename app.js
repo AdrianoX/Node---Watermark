@@ -20,7 +20,6 @@ const addTextWatermarkToImage = async function (inputFile, outputFile, text) {
   }
 };
 
-// addTextWatermarkToImage('./test.jpg', './test-with-watermark.jpg', 'Hello world')
 
 const addImageWatermarkToImage = async function (
   inputFile,
@@ -49,7 +48,6 @@ const prepareOutputFilename = (filename) => {
   return `${name}-with-watermark.${ext}`;
 };
 
-//   addImageWatermarkToImage('./test.jpg', './test-with-watermark2.jpg', './logo.png');
 
 const startApp = async () => {
   // Ask if user is ready
@@ -98,7 +96,6 @@ const startApp = async () => {
       console.log("Everything is fine : )");
       console.log("GJ bro : )");
     } else {
-    //   console.log("Damn...something went wrong...");
       console.log('Something went wrong... Try again!');
       console.log("... or try to fix it...");
     }
@@ -125,7 +122,6 @@ const startApp = async () => {
       console.log("Everything is fine : ))");
       console.log("GJ bro : )");
     } else {
-    //   console.log("Damn...something went wrong...");
       console.log('Something went wrong... Try again!');
       console.log("... or try to fix it...");
     }
